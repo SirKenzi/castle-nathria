@@ -9,23 +9,19 @@ body{
 
 .header{
     display: block;
-}
-
-.header-img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    object-position: 0px -328px
+    background-image: url("nathria.jpg");
 }
 
 .header-title{
     display: inline-block;
-    position: relative;
     width: 100%;
     text-align: center;
-    top: -250px;
     color: #f4f4f4;
     font-size: 62px;
     text-shadow: 1px 2px 1px #1e1e1e;
     font-family: ApexMk3;
+}
+
+.boss-article{
+    background-image: url("shriekwing.png");
 }
