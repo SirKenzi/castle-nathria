@@ -1,5 +1,8 @@
 body{
     margin: 0px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 @font-face {
@@ -35,7 +38,8 @@ body{
 .boss-article > div{
     background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5046219171262255) 8%, rgba(0,0,0,0.5018207966780462) 92%, rgba(255,255,255,0) 100%);
     padding: 15px 20vh;
-    height: 100%;
+    overflow: auto;
+    height: 125%;
 }
 
 .boss-article-section{
