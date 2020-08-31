@@ -9,7 +9,7 @@ body{
 
 .header{
     display: block;
-    background-image: url("nathria.jpg");
+    background-image: url("images/nathria.jpg");
 }
 
 .header-title{
@@ -22,6 +22,6 @@ body{
     font-family: ApexMk3;
 }
 
-.boss-article{
-    background-image: url("shriekwing.png");
+.article-shriekwing{
+    background-image: url("images/shriekwing.png");
 }
