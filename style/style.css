@@ -10,6 +10,8 @@ body{
 .header{
     display: block;
     background-image: url("images/nathria.jpg");
+    background-position-x: center;
+    background-position-y: -140px;
 }
 
 .header-title{
@@ -24,4 +26,14 @@ body{
 
 .article-shriekwing{
     background-image: url("images/shriekwing.png");
+}
+
+.boss-article-section{
+    display:flex;
+    flex-direction: column;
+    color: #f4f4f4;
+}
+
+.boss-article-section > h2{
+    font-family: ApexMk3;
 }
