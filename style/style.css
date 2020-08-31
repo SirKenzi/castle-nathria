@@ -26,14 +26,17 @@ body{
 
 .article-shriekwing{
     background-image: url("images/shriekwing.png");
+    padding: 20px 20vw;
 }
 
 .boss-article-section{
     display:flex;
     flex-direction: column;
     color: #f4f4f4;
+
 }
 
 .boss-article-section > h2{
-    font-family: ApexMk3;
+    font-family: 'Bebas Neue', cursive;
+    margin: 15px 0px 7px;
 }
